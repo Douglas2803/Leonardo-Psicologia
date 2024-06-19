@@ -1,0 +1,19 @@
+services:
+  leonardo-psicologia:
+    build: .
+    image: leonardo/psicologia:latest
+    container_name: "leonardo-psicologia"
+    volumes:
+      - ./nginx/log:/var/log/nginx
+    restart: always
+    environment:
+      - VIRTUAL_HOST=leonardo.com, www.leonardo.com
+      - VIRTUAL_NETWORK=nginx-proxy
+      - VIRTUAL_PORT=80
+      - LETSENCRYPT_HOST=leonardo.com, www.leonardo.com
+      # - LETSENCRYPT_EMAIL=admin@zorgen.tech
+
+networks:
+  default:
+    name: nginx-proxy
+    external: true
