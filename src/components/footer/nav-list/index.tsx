@@ -2,7 +2,7 @@ import { NavLink } from '../nav-link';
 
 const navList = [
   {
-    text: 'Plitica de Privacidade',
+    text: 'Politica de Privacidade',
     link: 'politica-de-privacidade',
   },
   {
