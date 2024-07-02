@@ -7,7 +7,7 @@ const Title = () => {
           <br />
           <span className="text-xl">Psicólogo Clinico</span>
         </h1>
-        <button className="bg-slate-300 text-sm w-[60%] md:w-1/2 p-2 border-2 border-black border-r rounded-lg">
+        <button className="bg-slate-300 text-sm w-[60%] md:w-1/2 p-2 border-2 border-black rounded-lg">
           AGENDAR CONSULTA
         </button>
         <p className="text-xl">A ajuda começa onde onde o ego termina</p>
