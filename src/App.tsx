@@ -3,8 +3,8 @@ import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { About } from './components/section/about';
 import { Contact } from './components/section/contact';
-import { Title } from './components/section/title';
 import { Timeline } from './components/section/timeline';
+import { Title } from './components/section/title';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Header />
       <Title />
       <Timeline />
-      <Contact />
       <About />
+      <Contact />
       <Footer />
     </>
   );
