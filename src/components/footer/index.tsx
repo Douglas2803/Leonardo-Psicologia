@@ -5,9 +5,6 @@ const Footer = () => {
   return (
     <footer className="container">
       <div className="my-12">
-        <a href="#" className="w-full flex justify-center mb-12">
-          Logo
-        </a>
         <ContactList />
       </div>
       <div className="border-t-2 mb-12 border-gray-600 lg:flex lg:flex-row-reverse lg:justify-between lg:mb-0">
